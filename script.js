@@ -20,4 +20,4 @@ function shareurl(event){
 	}
 	h3.textContent=h3value;
 }
-form.addEventListener('click',shareurl);
+form.addEventListener('submit',shareurl);
