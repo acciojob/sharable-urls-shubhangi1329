@@ -1,8 +1,8 @@
 // your code here
-var name=querySelector('#name');
-var year=querySelector('#year');
-var btn=querySelector('#button');
-var form=querySelector('form');
+var name=document.querySelector('#name');
+var year=document.querySelector('#year');
+var btn=document.querySelector('#button');
+var form=document.querySelector('form');
 function shareurl(event){
 	event.preventDefault();
 	var h3value=' https://localhost:8080/';
