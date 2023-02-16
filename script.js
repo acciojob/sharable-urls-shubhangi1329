@@ -5,7 +5,7 @@ var btn=document.querySelector('#button');
 var form=document.querySelector('form');
 function shareurl(event){
 	event.preventDefault();
-	var h3value=' https://localhost:8080/';
+	var h3value='https://localhost:8080/';
 	var nameel=name.value;
 	var yearel=year.value;
 	if(nameel && yearel){
