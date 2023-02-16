@@ -18,6 +18,6 @@ function shareurl(event){
 		h3value+='?name='+ nameel;
 		
 	}
-	document.querySelector(h3).textContent=h3value;
+	document.querySelector('h3').textContent=h3value;
 }
 form.addEventListener('submit',shareurl);
