@@ -1,13 +1,17 @@
 // your code here
-var name=document.querySelector('#name');
+var nam=document.querySelector('#name');
+//alert(name);
 var year=document.querySelector('#year');
+
 var btn=document.querySelector('#button');
 var form=document.querySelector('form');
 function shareurl(event){
 	event.preventDefault();
 	var h3value='https://localhost:8080/';
-	var nameel=name.value;
+	var nameel=nam.value;
+	
 	var yearel=year.value;
+	//alert(yearel,nameel);
 	if(nameel && yearel){
 		h3value+='?name='+nameel+'&year='+yearel;  
 	}
